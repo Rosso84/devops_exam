@@ -20,8 +20,6 @@ The pipeline will automatically detect and update the CI everytime there is a ch
 after it has been commited and pushed to master and give a warning if tests or anything else fails.
 
 
-###Install and instructions 
-
 ####Tools needed
 
 Git account
@@ -35,7 +33,7 @@ fly CLI
 Heroku CLI
 
 
-####Instruction
+#### Instruction
 Before starting you need some pre-knowledge of Concourse, Docker and Heroku.
 Once  you have installed everything follow the concourse tutorial:
 https://concoursetutorial.com/
@@ -84,7 +82,7 @@ Start with running the Infra pipeline first and then app  ones infra turns green
 Check your heroku ci to verify it has been created.
 
 
-###Run Rest applicaion
+### Run Rest applicaion
 You can run the REST Api application locally with heroku cli installed by opening up the cli , navigate to root of exam-app and run 'heroku local'
 or by this tutorial: https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku
 
