@@ -84,6 +84,6 @@ Check your heroku ci to verify it has been created.
 
 ### Run Rest applicaion
 You can run the REST Api application locally with heroku cli installed by opening up the cli , navigate to root of exam-app and run 'heroku local'
-or by this tutorial: https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku
+or through this tutorial: https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku
 
 Application will then be available at http://localhost:<portnumber>/movierest/api/swagger-ui.html
